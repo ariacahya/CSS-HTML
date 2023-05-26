@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+/*Gaya Dasar*/
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/*Selector Tag*/
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+/*Selector Class*/
+.my-class {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/*Selector ID*/
+#header {
+  background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+#my-element {
+  font-weight: bold;
+}
+
+/*Selector Atribut*/
+input[type="text"] {
+  border: 1px solid cyan;
+  padding: 10px;
+  color: cyan;
+}
+
+/*Selector Universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Selector Pseudo*/
+p.hover:hover {
+  font-style: italic;
+}
+
+p span {
+  color: magenta
+}
+
+  </style>
+</head>
+<body>
+  <header id="header">
+    <h1>Ini adalah judul</h1>
+  </header>
+  <p> <span>Ini adalah paragraf pertama </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsum temporibus quam eligendi recusandae quisquam, iste nemo aperiam ullam obcaecati veritatis voluptas debitis ratione laboriosam labore nihil ex sapiente distinctio.</p>
+  <p class="my-class">Ini adalah paragraf kedua menggunakan class "my-class"</p>
+  <p id="my-element">Ini adalah paragraf ketiga menggunakan ID "my-element"</p>
+
+  <input type="text" placeholder="Masukkan teks">
+
+  <p class="hover">Ini adalah paragraf terakhir</p>
+</body>
+</html>
